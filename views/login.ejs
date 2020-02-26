@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <form action="/login" method="post">
+     <div class="container">
+         <input required type="email" name="username" id="email" placeholder="Enter an email">
+         <input required type="password" name="password" id="pass" placeholder="Password">
+         <div class="but">
+            <button type="submit" id="login">Login</button>
+            <button type="button" id="register" onclick="window.location.href='/register';">Register</button>
+         </div>
+
+     </div>
+    
+    
+    </form>
+</body>
+</html>

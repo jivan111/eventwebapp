@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="event.css">
+    <title>Event</title>
+</head>
+<body>
+<div class="container">
+   <% if(result.length!=0){  %>
+    
+        <% result.forEach((data)=>{ %>
+ <div class="box">
+  <img src="pic.jpg" alt="" width="150px" height="80px">
+    <div class="data">
+
+    <p><%-data.name%></p>
+    <p><%-data.lastDateRegisteration%></p>
+     </div>
+    </div>
+     <% })%> 
+   <% }else{ %>
+  no events to show
+  
+  <%}%>
+</div>
+</body>
+</html>

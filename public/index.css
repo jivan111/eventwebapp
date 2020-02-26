@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    margin: 30px;
+}
+.box{
+    
+   display: flex;
+   width: 10%;
+   justify-content: space-around;
+}
+
+.box a{
+    outline: none;
+    text-decoration: none;
+    color: rgb(70, 70, 128);
+    width: 50px;
+    font-size: 1.2rem;
+}
+
+.logout a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    font-size: 1.2rem;
+    color: mediumseagreen;
+} 
